@@ -1,0 +1,156 @@
+:root {
+    --color-background: #CCCCCC;
+    --color-text: #202020;
+    --color-light: #d9d9d9;
+    --color-dark: #323232;
+    --color-primary: #926AA6;
+    --color-debug: #105050;
+
+    --padding-button: 0.5rem 1rem;
+
+    font-size: 12pt;
+    font-family: "niveau-grotesk",sans-serif;;
+}
+h1, h2, a, p {
+    margin: 0;
+    padding: 0;
+    color: var(--color-text);
+}
+
+h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+h2 {
+    margin-top: -0.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+a {
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 12%;
+    position: sticky;
+    top: 0;
+    align-items: center;
+
+    background-color: var(--color-debug);
+}
+
+.logo-placeholder {
+    width: 3rem;
+    height: 3rem;
+
+    background-color: var(--color-primary);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 10rem 12% 0rem 12%;
+
+    background-color: var(--color-debug);
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-self: stretch;
+
+    background-color: var(--color-background)
+}
+
+.card-rightcol {
+    min-width: 25rem;
+    min-height: 33.3rem;
+
+    background-color: var(--color-dark);
+    border-radius: 1rem;
+}
+
+.card-leftcol {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    max-width: 32rem;
+}
+
+.card-leftcol-about {
+    
+    margin-bottom: 4rem;
+}
+
+.card-leftcol-linktree {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.card-leftcol-linktree-contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-leftcol-linktree-socials {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link-button {
+    display: flex;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem 0.25rem;
+    align-items: center;
+    gap: 0.5rem;
+
+    background-color: var(--color-light);
+    border-radius: 0.5rem;
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+}
+
+footer>p {
+    margin: 0.5rem 2rem;
+    font-size: 12pt;
+    font-weight: 300;
+    word-wrap: none;
+}
+
+.icon-placeholder {
+    width: 1.2rem;
+    height: 1.2rem;
+
+    background-color:var(--color-primary);
+    border-radius: 50%;
+}
+
+
